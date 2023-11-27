@@ -4,6 +4,7 @@ import Services from "./components/Services";
 import FactCounter from "./components/FactCounter";
 import Video from "./components/Video";
 import Testimonial from "./components/Testimonial";
+import "slick-carousel/slick/slick.css"; 
 
 export default function App() {
   return (
