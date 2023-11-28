@@ -6,6 +6,7 @@ import Video from "./components/Video";
 import Testimonial from "./components/Testimonial";
 import "slick-carousel/slick/slick.css"; 
 import Contact from "./components/Contact";
+import Find from "./components/Find";
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Video/>
       <Testimonial/>
       <Contact/>
+      <Find/>
     </>
   )
 }

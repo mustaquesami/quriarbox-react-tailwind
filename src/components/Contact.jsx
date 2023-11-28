@@ -1,5 +1,4 @@
 import Container from './layouts/Container'
-import React from 'react'
 import Flex from './layouts/Flex'
 import Img from './layouts/Img'
 import contact from '../assets/contact.png'
