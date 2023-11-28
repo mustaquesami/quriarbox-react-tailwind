@@ -5,6 +5,7 @@ import FactCounter from "./components/FactCounter";
 import Video from "./components/Video";
 import Testimonial from "./components/Testimonial";
 import "slick-carousel/slick/slick.css"; 
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <FactCounter/>
       <Video/>
       <Testimonial/>
+      <Contact/>
     </>
   )
 }
