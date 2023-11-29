@@ -39,7 +39,7 @@ const Find = () => {
                 </div>
             </Flex>
         </Container>
-        <button className='w-[560] m-auto flex items-center mb-[183px] py-[25px] px-[113px] bg-[#F95C19] text-white rounded'><FaPhoneAlt className='inline-block' />Call us to delivery  123-456789</button>
+        <button className='w-[560] m-auto flex items-center mb-[183px] py-[25px] px-[113px] bg-[#F95C19] text-white rounded font-ox text-xl font-bold'><FaPhoneAlt className='inline-block mr-2' />Call us to delivery  123-456789</button>
     </section>
   )
 }

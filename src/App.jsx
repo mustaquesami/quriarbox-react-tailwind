@@ -7,6 +7,9 @@ import Testimonial from "./components/Testimonial";
 import "slick-carousel/slick/slick.css"; 
 import Contact from "./components/Contact";
 import Find from "./components/Find";
+import Subscribe from "./components/Subscribe";
+import Footer from "./components/Footer";
+import CopyRight from "./components/CopyRight";
 
 export default function App() {
   return (
@@ -19,6 +22,9 @@ export default function App() {
       <Testimonial/>
       <Contact/>
       <Find/>
+      <Subscribe/>
+      <Footer/>
+      <CopyRight/>
     </>
   )
 }

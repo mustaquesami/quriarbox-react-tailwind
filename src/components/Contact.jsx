@@ -17,8 +17,8 @@ const Contact = () => {
                     <h5 className='font-raleway text-[#9291A1] text-2xl font-semibold'>Monday to Friday, 9am-5pm.</h5>
                 </div>
                 <form action='' className='w-[423px] mt-2'>
-                    <Input type='text' placeholder='Name'/>
-                    <Input type='text' placeholder='Email'/>
+                    <Input type='text' placeholder='Name' className='w-full py-4 border-2 border-[#C5C5D2] rounded-2xl bg-transparent outline-[#C5C5D2] mb-4 px-5'/>
+                    <Input type='text' placeholder='Email' className='w-full py-4 border-2 border-[#C5C5D2] rounded-2xl bg-transparent outline-[#C5C5D2] mb-4 px-5'/>
                     <textarea placeholder='Message' className=' w-full py-4 border-2 border-[#C5C5D2] rounded-2xl bg-transparent outline-[#C5C5D2] mb-4 h-[154px] px-5'>
 
                     </textarea>
