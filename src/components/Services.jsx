@@ -13,7 +13,7 @@ const Services = () => {
     <section className='mb-[173px]'>
         <Heading title='SERVICES' subTitle='Our services for you'/>
         <Container>
-            <Flex className='gap-6'>
+            <Flex className='flex-col px-2'>
                 <Card serviceTitle='Business Services' serviceDesc='We give you complete reliable delivery for your company.  We will take full responsibility of the deliveries.' src={s1} btnTitle='Learn more'>
                     <ListItem title='Corporate goods'/>
                     <ListItem title='Shipment'/>
