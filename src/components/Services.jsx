@@ -10,7 +10,7 @@ import ListItem from './layouts/ListItem'
 
 const Services = () => {
   return (
-    <section className='mb-[173px]'>
+    <section className='mb-[80px]'>
         <Heading title='SERVICES' subTitle='Our services for you'/>
         <Container>
             <Flex className='flex-col px-2'>

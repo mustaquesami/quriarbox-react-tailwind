@@ -10,9 +10,9 @@ import a5 from '../assets/a5.png'
 
 const FactCounter = () => {
   return (
-    <section className='mb-[167px]'>
+    <section className='mb-[80px]'>
         <Container>
-            <Flex className=' justify-between'>
+            <Flex className=' flex-col gap-3'>
                 <Counter src={a1} end='26' duration='5' suffix='+' factTitle='Awards won'/>
                 <Counter src={a2} end='65' duration='5' suffix='+' factTitle='States covered'/>
                 <Counter src={a3} end='689' duration='5' suffix='K+' factTitle='Happy clients'/>

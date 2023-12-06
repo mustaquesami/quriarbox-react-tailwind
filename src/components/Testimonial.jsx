@@ -29,10 +29,10 @@ const Testimonial = () => {
         autoplaySpeed: 2000
       };
   return (
-    <section className='mb-[266px]'>
+    <section className='mb-[80px]'>
         <Container>
-            <Flex className=' justify-center relative w-[872px] m-auto'>
-                <Img src={quote} className='absolute top-0 left-10'/>
+            <Flex className='flex-col'>
+                <Img src={quote} className='m-auto'/>
                 <Heading title='TESTIMONIAL' subTitle='Our Awesome Clients'/>
             </Flex>
             <Slider {...settings}>
