@@ -9,13 +9,13 @@ const Banner = () => {
   return (
     <section className='mb-[80px]'>
         <Container>
-            <Flex className='flex-col w-full'>
+            <Flex className='flex-col w-full lg:flex-row'>
                 <div>
-                    <h1 className='w-full font-raleway text-[39px] font-normal text-[#261134] leading-[58px]'>A trusted provider of <span className=' font-extrabold'>courier services.</span></h1>
+                    <h1 className='w-full font-raleway text-[39px] font-normal text-[#261134] leading-[58px] lg:mt-[260px]'>A trusted provider of <span className=' font-extrabold'>courier services.</span></h1>
                     <p className='w-full text-[#4D4D4D] font-raleway text-xl font-normal leading-6 mt-4 mb-10'>We deliver your products safely to your home in a reasonable time.</p>
                     <button className='bg-[#F95C19] px-5 py-3 rounded text-white font-ox text-base font-bold'>Get started<FaArrowRight className='inline-block' /></button>
                 </div>
-                <Img src={banner} className=''/>
+                <Img src={banner} className='lg:mt-[170px]'/>
             </Flex>
         </Container>
     </section>

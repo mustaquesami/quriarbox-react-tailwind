@@ -10,12 +10,12 @@ const Footer = () => {
   return (
     <footer className='bg-[#2F2E41] py-[60px]'>
         <Container>
-            <Flex className='flex-col'>
+            <Flex className='flex-col md:flex-row md:justify-between'>
                 <div>
                     <Img src={fLogo}/>
                     <p className='font-raleway text-[#9291A1] text-base font-semibold w-[190px] mt-[18px]'>The most trusted Courier company in your area.</p>
                 </div>
-                <Flex className='flex-col'>
+                <Flex className='flex-col md:flex-row md:justify-between md:gap-4'>
                     <List className='font-raleway text-base font-semibold text-[#9291A1]'>
                         <h4 className='font-ox text-white text-xl font-bold mb-[22px]'>Other links</h4>
                         <ListItem title='Blogs'/>

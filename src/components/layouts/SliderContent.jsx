@@ -5,7 +5,7 @@ import Img from '../layouts/Img'
 const SliderContent = ({title,desc,children,name,designation,src}) => {
   return (
     <div>
-        <div className='bg-white w-full m-auto mt-[89px] rounded-2xl shadow-[rgba(0, 19, 119, 0.05)] px-10 pt-[40px] pb-[34px]'>
+        <div className='bg-white w-full m-auto mt-[89px] rounded-2xl shadow-[rgba(0, 19, 119, 0.05)] px-10 pt-[40px] pb-[34px] lg:w-[872px]'>
             <h3 className='w-full text-[#F95C19] font-raleway text-2xl font-bold'>{title}</h3>
             <p className='w-full text-[#464558] font-raleway text-base font-normal leading-6 mt-3 mb-2'>{desc}</p>
             <Flex className='items-center justify-between'>

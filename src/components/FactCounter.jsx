@@ -12,7 +12,7 @@ const FactCounter = () => {
   return (
     <section className='mb-[80px]'>
         <Container>
-            <Flex className=' flex-col gap-3'>
+            <Flex className=' flex-col gap-3 md:flex-row md:justify-between'>
                 <Counter src={a1} end='26' duration='5' suffix='+' factTitle='Awards won'/>
                 <Counter src={a2} end='65' duration='5' suffix='+' factTitle='States covered'/>
                 <Counter src={a3} end='689' duration='5' suffix='K+' factTitle='Happy clients'/>
